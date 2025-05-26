@@ -1,4 +1,4 @@
-# oJavascript
+# Javascript
 
 ## Arrays and Strings
 
