@@ -1,0 +1,84 @@
+name: big-bear-cloudflared-web
+services:
+  big-bear-cloudflared-web:
+    cpu_shares: 90
+    command: []
+    container_name: big-bear-cloudflared-web
+    deploy:
+      resources:
+        limits:
+          memory: 15855M
+    environment:
+      - BASIC_AUTH_PASS=Eatmyshorts2024!!
+      - BASIC_AUTH_USER=admin
+      - EDGE_IP_VERSION=auto
+      - METRICS_ENABLE=false
+      - METRICS_PORT=60123
+      - PROTOCOL=auto
+      - WEBUI_PORT=14333
+    hostname: big-bear-cloudflared-web
+    image: wisdomsky/cloudflared-web:2025.2.1
+    labels:
+      icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/cloudflare.png
+    restart: unless-stopped
+    x-casaos:
+      envs:
+        - container: WEBUI_PORT
+          description:
+            en_us: Web UI Port
+        - container: EDGE_IP_VERSION
+          description:
+            en_us: Edge IP Version
+        - container: PROTOCOL
+          description:
+            en_us: Protocol
+        - container: METRICS_ENABLE
+          description:
+            en_us: Metrics Enable
+        - container: METRICS_PORT
+          description:
+            en_us: Metrics Port
+        - container: BASIC_AUTH_USER
+          description:
+            en_us: Basic Auth User
+        - container: BASIC_AUTH_PASS
+      ports:
+        - container: "14333"
+          description:
+            en_us: "Container Port: 14333"
+    ports: []
+    volumes: []
+    devices: []
+    cap_add: []
+    network_mode: host
+    privileged: false
+x-casaos:
+  architectures:
+    - amd64
+    - arm64
+  author: BigBearTechWorld
+  category: BigBearCasaOS
+  description:
+    en_us: Cloudflared-web is a docker image that packages both cloudflared cli and
+      a simple Web UI to easily start or stop remotely-managed Cloudflare
+      tunnel.
+  developer: wisdomsky
+  hostname: ""
+  icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/cloudflare.png
+  index: /
+  is_uncontrolled: true
+  main: big-bear-cloudflared-web
+  port_map: "14333"
+  scheme: http
+  store_app_id: big-bear-cloudflared-web
+  tagline:
+    en_us: Cloudflared Web
+  thumbnail: ""
+  tips:
+    before_install:
+      en_us: >
+        Read this before installing:
+        https://community.bigbeartechworld.com/t/added-cloudflared-web-to-bigbearcasaos/2275?u=dragonfire1119
+  title:
+    custom: ""
+    en_us: Cloudflared Web
