@@ -1,6 +1,6 @@
-![1756306927920](image/JavaFundamentals/1756306927920.png)
+![1759604383704](image/JavaFundamentals/1759604383704.png)
 
-# Core Java Basics 
+# Core Java Basics
 
 * Java syntax (variables, data types, operators)
 * Control flow (`if`, `switch`, loops)
@@ -8,7 +8,7 @@
 * Exception handling (`try`, `catch`, `finally`, custom exceptions)
 * Input/Output (files, streams, serialization)
 
-# Object-Oriented Programming in Java 
+# Object-Oriented Programming in Java
 
 * Classes & Objects
 * Constructors & Overloading

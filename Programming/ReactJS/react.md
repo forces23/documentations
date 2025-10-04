@@ -1,4 +1,4 @@
-sl![1756594516638](image/react/1756594516638.png)
+![1759603843190](image/react/1759603843190.png)
 
 # Prop Vs State
 
@@ -1453,7 +1453,6 @@ Key Concepts
     * theme
     * shopping cart items
 
-
 **Local State**
 
 * **Managed inside a component** using `useState` or `useReducer`.
@@ -1480,7 +1479,6 @@ funtion Counter() {
 
 ✅ Simple, fast, and does not require extra libraries
 
-
 **Global State**
 
 * **Managed outside of a single component** and can be accessed by multiple components.
@@ -1491,7 +1489,6 @@ funtion Counter() {
   * Theme (dark/light mode)
   * Shopping cart
   * Data fetched from API shared across pages
-
 
 Different State Libraries
 
@@ -1530,7 +1527,6 @@ Different State Libraries
 * Reactive, less boilerplate than Redux.
 * Best when you want  **automatic updates without manually dispatching actions** .
 
-
 **Key Takeaways**
 
 * **Local state** : simple, component-specific, use `useState` or `useReducer`.
@@ -1543,8 +1539,7 @@ Different State Libraries
 * Avoid overcomplicating —  **don’t use global state if local state suffices** .
 * Keep state  **predictable, minimal, and maintainable**
 
-
-# Controlled vs Uncontrolled 
+# Controlled vs Uncontrolled
 
 When working with **form inputs** in React, it’s important to understand  **how the component’s value is managed** .
 
@@ -1677,7 +1672,6 @@ function UncontrolledInput() {
 * **Controlled** = React controls everything.
 * **Uncontrolled** = DOM controls the input; React just reads the value when needed.
 
-
 # Keys in lists
 
 **What are keys in React?**
@@ -1763,7 +1757,6 @@ users.map(user => <li key={user.id}>{user.name}</li>);
 💡 **Analogy:**
 
 Think of keys like  **name tags at a party** . If someone leaves and a new person comes, the name tag lets the host know  **who’s who** , instead of guessing.
-
 
 # Error Boundaries
 
@@ -1859,7 +1852,6 @@ class ErrorBoundary extends React.Component {
 💡 **Analogy:**
 
 Think of an Error Boundary like a  **safety net under a tightrope walker** . If they slip (component crashes), the net catches them instead of letting them fall all the way down (crash the app).
-
 
 # Important Additionals
 

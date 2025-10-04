@@ -1,5 +1,4 @@
-![1756312293435](image/AWSFundamentalsforAI&FullStackDevelopment/1756312293435.png)
-
+![1759604163344](image/AWSFundamentalsforAI&FullStackDevelopment/1759604163344.png)
 
 # Compute
 
@@ -82,7 +81,7 @@
   * Connect to backend APIs
   * CI/CD integration with GitHub/GitLab
 
-# Best Practices 
+# Best Practices
 
 * Automate infrastructure as code (CloudFormation/Terraform optional)
 * Use IAM roles, not hard-coded credentials

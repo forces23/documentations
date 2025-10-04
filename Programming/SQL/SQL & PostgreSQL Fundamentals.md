@@ -1,7 +1,6 @@
-![1756308470830](image/SQL&PostgreSQLFundamentals/1756308470830.png)
+![1759604514156](image/SQL&PostgreSQLFundamentals/1759604514156.png)
 
-
-# Core SQL Basics 
+# Core SQL Basics
 
 * ✅ Understanding relational databases (tables, rows, columns).
 * ✅ Primary keys, foreign keys, and relationships.

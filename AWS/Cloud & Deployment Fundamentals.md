@@ -1,5 +1,4 @@
-![1756310389705](image/Cloud&DeploymentFundamentals/1756310389705.png)
-
+![1759604283052](image/Cloud&DeploymentFundamentals/1759604283052.png)
 
 # Docker & Containerization
 

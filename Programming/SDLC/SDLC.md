@@ -1,5 +1,4 @@
-![1756309039093](image/SDLC/1756309039093.png)
-
+![1759604435042](image/SDLC/1759604435042.png)
 
 # Planning & Requirements
 

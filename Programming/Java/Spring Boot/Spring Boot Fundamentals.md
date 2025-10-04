@@ -1,7 +1,6 @@
-![1756307087927](image/SpringBootFundamentals/1756307087927.png)
+![1759604488002](image/SpringBootFundamentals/1759604488002.png)
 
-
-# Spring Boot Basics 
+# Spring Boot Basics
 
 * What is Spring & Spring Boot (difference from traditional Spring)
 * Project setup with Spring Initializr
@@ -41,7 +40,7 @@
 * Integration tests (`@SpringBootTest`)
 * MockMvc for REST API testing
 
-# Advanced Spring Boot 
+# Advanced Spring Boot
 
 * Actuator (health checks, metrics)
 * Caching (`@Cacheable`)
@@ -57,7 +56,7 @@
 * Config server & centralized configuration
 * Resilience patterns (Circuit Breaker with Resilience4j/Hystrix)
 
-# Deployment 
+# Deployment
 
 * Packaging as JAR vs WAR
 * Running with embedded Tomcat

@@ -1,5 +1,4 @@
-![1756309717445](image/APIsFundamentals/1756309717445.png)
-
+![1759604202926](image/APIsFundamentals/1759604202926.png)
 
 # API Basics
 

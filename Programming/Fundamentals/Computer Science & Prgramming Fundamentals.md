@@ -1,10 +1,10 @@
-![1756323308721](image/ComputerScience&PrgrammingFundamentals/1756323308721.png)
+![1759604576756](image/ComputerScience&PrgrammingFundamentals/1759604576756.png)
 
 # Programming Fundamental
 
 ## Variables, Data Types, and Operators
 
-### **Variables** 
+### **Variables**
 
 Variable is a label box where you can store data for later use.
 
@@ -26,20 +26,20 @@ let height: number = 6.0;
 
 ```
 
-### Data Types 
+### Data Types
 
 Data Types define what kind of value a variable can hold
 
 * Common Types of Data Types:
 
-| Java           | Typescript | Defined As                                                                | Examples                     | Constraints |
-| -------------- | ---------- | ------------------------------------------------------------------------- | ---------------------------- | ----------- |
-| integer        | number     | Whole Numbers                                                             | 1, 100, -80, -10             |             |
-| Floating point | decimal    | Numbers with decimals                                                     | 1.1, 10.99, -100.0           |             |
-| String         | String     | Text                                                                      | "Hello world"                |             |
-| Boolean        | Boolean    | True or False                                                             | true, false                  |             |
-| Array          | List       | A Collections of items                                                    | [1,2,3,4] , ["a", "b", "c"]  |             |
-| Object         | Object     | A structured collection of properties <br />and values -- key, value pair | {"name": "Bobby", "age": 30} |             |
+| Java           | Typescript | Defined As                                                               | Examples                     | Constraints |
+| -------------- | ---------- | ------------------------------------------------------------------------ | ---------------------------- | ----------- |
+| integer        | number     | Whole Numbers                                                            | 1, 100, -80, -10             |             |
+| Floating point | decimal    | Numbers with decimals                                                    | 1.1, 10.99, -100.0           |             |
+| String         | String     | Text                                                                     | "Hello world"                |             |
+| Boolean        | Boolean    | True or False                                                            | true, false                  |             |
+| Array          | List       | A Collections of items                                                   | [1,2,3,4] , ["a", "b", "c"]  |             |
+| Object         | Object     | A structured collection of properties<br />and values -- key, value pair | {"name": "Bobby", "age": 30} |             |
 
 ### Operators
 
@@ -81,7 +81,6 @@ Data Types define what kind of value a variable can hold
 | -=       | decrement<br />assignment      | `a -= 2 // a now equals 4`                                                                                                                                     |
 | *=       | multiplication<br />assignment | `a *= 2 // a now is 8`                                                                                                                                         |
 | /=       | division<br />assignment      | `a /= 4 // a now is 2`                                                                                                                                         |
-
 
 ## Control Flow (if/else, switch, loops)
 

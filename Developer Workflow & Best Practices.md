@@ -1,5 +1,4 @@
-![1756311767563](image/DeveloperWorkflow&BestPractices/1756311767563.png)
-
+![1759604318007](image/DeveloperWorkflow&BestPractices/1759604318007.png)
 
 # Version Control (Git & GitHub)
 

@@ -1,5 +1,4 @@
-![1756310717330](image/DockerFundamentals/1756310717330.png)
-
+![1759604356827](image/DockerFundamentals/1759604356827.png)
 
 Core Concepts
 
@@ -21,7 +20,7 @@ Docker Images
   * Layer caching optimization
   * Minimize image size
 
-Docker Containers 
+Docker Containers
 
 * Running containers: `docker run -it -p <host>:<container> <image>`
 * Managing containers: `docker ps`, `docker stop`, `docker rm`, `docker logs`, `docker exec`
@@ -35,7 +34,7 @@ Docker Compose
 * Common commands: `docker-compose up`, `docker-compose down`, `docker-compose logs`, `docker-compose build`
 * Linking services (e.g., frontend → backend → database)
 
-Networking & Volumes 
+Networking & Volumes
 
 * Container networking modes: bridge, host, overlay
 * Exposing ports to the host

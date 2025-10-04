@@ -1,4 +1,4 @@
-ser![1756771221951](image/ComputerScienceFundamentals/1756771221951.png)
+![1759604103570](image/ComputerScienceFundamentals/1759604103570.png)
 
 # Big-O Notation
 
@@ -593,13 +593,11 @@ Response
 Allow: GET, PUT, PATCH, DELETE, OPTIONS
 ```
 
-
-
 ## TRACE
 
 **Purpose:** Echoes back the request so that the client can see whats reaching the server
 
-**Behavior**: 
+**Behavior**:
 
 * The server returns the exact request it recieved (headers, etc)
 * used mainly for debugging and testing
@@ -623,13 +621,11 @@ Host: example.com
 User-Agent: curl/7.79.1
 ```
 
-
-
 ## CONNECT
 
 **Purpose:** Establish a tunnel to the server, often for encrypted (HTTPS) communication through a proxy**.**
 
-**Behavior**: 
+**Behavior**:
 
 * Tells the server (often a proxy) to open a TCP connection to another host.
 * Mostly used in HTTPs requests through proxies
@@ -651,8 +647,6 @@ Response
 200 Connection Established
 ```
 
-
-
 # Algorithms
 
 ## Sorting Algorithms
@@ -668,8 +662,6 @@ Bubble Sort is a  **simple comparison-based sorting algorithm** .
 * It works by repeatedly **swapping adjacent elements** if they are in the wrong order.
 * After each pass through the list, the largest element "bubbles up" to the end of the list.
 * This continues until the array is sorted.
-
-
 
 🔹**Step-by-step Explanation**
 
@@ -706,8 +698,6 @@ Final result:
 [1, 2, 5, 5, 6, 9]
 ```
 
-
-
 🔹**Pseudocode**
 
 ```plaintext
@@ -723,7 +713,6 @@ procedure bubbleSort(array)
     until swapped = false
 end procedure
 ```
-
 
 🔹**Java Implementation**
 
@@ -758,7 +747,6 @@ public class BubbleSort {
 
 ```
 
-
 🔹TypeScript Implementation
 
 ```ts
@@ -784,7 +772,6 @@ function bubbleSort(arr: number[]): number[] {
 const numbers = [5, 2, 9, 1, 5, 6];
 console.log(bubbleSort(numbers)); // [1, 2, 5, 5, 6, 9]
 ```
-
 
 🔹**Complexity**
 
