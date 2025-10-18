@@ -1,10 +1,8 @@
-
 # **IDE's**
 
-**VScode (IDE) ~~X~~**
+**VScode (IDE) **
 
 * for mostly everything
-
 
 # **VSCode Extensions**
 
@@ -48,18 +46,15 @@
 
 * Automatically formats code to ensure consistent style, making it easier to read and maintain
 
-
 # Windows Programs
 
 **Git Bash for Windows ~~X~~**
 
 * A command-line interface that provides a Git command environment with Bash shell features on Windows. It allows you to use Git commands and Unix-style utilities (like `ssh`, `scp`, `cat`, etc.) on Windows, making it easier for developers accustomed to Linux or macOS environments to work with Git on a Windows machine.
 
-
 **Microsoft PowerToys** **~~X~~**
 
 * set of utilities to enhance productivity on Windows. It includes features like FancyZones for managing window layouts, PowerRename for bulk renaming files, and a color picker tool, all of which can streamline your workflow when working across multiple applications.
-
 
 # Websites
 
@@ -67,11 +62,9 @@
 
 * Integrates with Amplify services and helps with frontend-backend development, such as building full-stack applications faster by using visual tools and code generation.
 
-
 **GitHub ~~X~~**
 
 * A cloud-based platform built around Git for version control and collaboration. It allows you to host repositories, review code, manage projects, and collaborate with teams through pull requests and issues. It's widely used for both open-source and private projects.
-
 
 # AI
 
